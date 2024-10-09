@@ -1,0 +1,40 @@
+.Hero-sec{
+    background-image: url("../../Imgs/bgM.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* From Uiverse.io by reshades */ 
+.button {
+    background-color: #ffffff00;
+    color: #190931;
+    width: 8.5em;
+    height: 2.9em;
+    border: #190931 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #401F71;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .button svg {
+    width: 1.6em;
+    margin: 0em 0.2em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+    color: #ffffff;
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
